@@ -1,0 +1,23 @@
+{
+  "name": "beerlocker",
+  "version": "0.0.1",
+  "description": "simple oAuth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pepin David",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.1.2",
+    "express-session": "^1.15.1",
+    "mongoose": "^4.9.0",
+    "oauth2orize": "^1.8.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
